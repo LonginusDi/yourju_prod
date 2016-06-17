@@ -11,7 +11,7 @@ public class userAuth : IHttpHandler
         var code = context.Request.QueryString["Code"];
         if (string.IsNullOrEmpty(code))
         {
-            var url = string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid={0}&redirect_uri=http%3a%2f%2f119.29.92.150%2fuserAuth.ashx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect", appid);
+            var url = string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid={0}&redirect_uri=http%3a%2f%2fyourju.com.cn%2fuserAuth.ashx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect", appid);
             context.Response.Redirect(url);
         }
         else

@@ -1,11 +1,10 @@
- <?php
+<?php
   
  /*
    微信授权相关接口
    
   */
-  
- class Wechat {
+class Wechat {
      
      //高级功能-》开发者模式-》获取
      private $app_id = 'wxbcb7a1667c4626a0';
@@ -18,7 +17,7 @@
        @param string $redirect_uri 跳转地址
        @param mixed $state 参数
       */
-     public function get_authorize_url($redirect_uri = 'http://119.29.92.15/auth.php', $state = '200')
+     public function get_authorize_url($redirect_uri = 'http://yourju.com.cn/auth.php', $state = '200')
      {
          $redirect_uri = urlencode($redirect_uri);
          return "https://open.weixin.qq.com/connect/oauth2/authorize?appid={$this->app_id}&redirect_uri={$redirect_uri}&response_type=code&scope=snsapi_userinfo&state={$state}#wechat_redirect";

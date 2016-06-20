@@ -23,11 +23,13 @@
 									<a href="#menu" class="menuToggle"><span></span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
+											<li><a href="index.php">Home</a></li>
 <!-- 											<li><a href="generic.html">Generic</a></li>
 											<li><a href="elements.html">Elements</a></li> -->
 											<!-- <li><a href="#">Sign Up</a></li> -->
 											<li><a href="#">Log In</a></li>
+											<li><a href="menu.php">Set Menu</a></li>
+
 										</ul>
 									</div>
 								</li>
@@ -168,7 +170,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<!--<script src="assets/js/main.js"></script>-->
+			<script src="assets/js/main.js"></script>
 			<script>
 			$(document).ready(function(){
 				$(".hidden").hide();

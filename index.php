@@ -48,7 +48,7 @@
 							</ul>
 						</div>
 						<div class="hidden">
-							<a href="#" id="toggleBack"><img class="qrcode" src="images/qrcode.jpeg"></a>
+							<a href="#" id="toggleBack"><img class="qrcode" src="images/qrcode.png"></a>
 						</div>
 						<a href="#one" class="more scrolly">关于我们</a>
 					</section>
